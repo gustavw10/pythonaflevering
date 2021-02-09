@@ -1,3 +1,4 @@
+Binder er sat op: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gustavw10/pythonaflevering/HEAD)
 
 # python Handin Template
