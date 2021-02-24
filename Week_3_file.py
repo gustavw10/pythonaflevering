@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def createStudents(amount):
     courses = createCourses()
     persons = []
-    names = ["Tom", "Lis", "Bet", "Andreas", "Andra", "Lilleth", "Dia", "Ek"]
+    names = ["Tom", "Lis", "Bet", "Andreas", "Andra", "Lilleth", "Dia", "Ek", "Abe", "Se", "Ta", "Bek", "Paul", "Po", "Che", "Lars", "Las", "Sva", "Bea", "Andrea", "Tony", "Sal", "Sally", "Somme"]
     genders = ['Male', 'Female']
     maxA=151
 
@@ -23,9 +23,15 @@ def createStudents(amount):
     for i in persons:
         for e in i.datasheet.courses:
             with open('/home/jovyan/python_handin_template/week3_writeToFile.csv', 'a') as file_object:
-                csv = 'Stud_name: {name},course_name: {course_name},teacher: {teacher},ects: {ects},classroom: {classroom},grade: {grade}'.format(
+                csv = 'Stud_name: {name}, course_name: {course_name}, teacher: {teacher}, ects: {ects}, classroom: {classroom}, grade: {grade}'.format(
                     name=i.name, course_name=e.name, teacher=e.teacher, ects=e.ECTS, classroom=e.classroom, grade=e.grade)
                 file_object.write(csv + '\n')
+
+    # for i in persons:
+    #     with open('/home/jovyan/python_handin_template/week3_writeToFile.csv', 'a') as file_object:
+    #         csv = 'Stud_name: {name}, course_name: {course_name}, teacher: {teacher}, ects: {ects}, classroom: {classroom}, grade: {grade}'.format(
+    #             name=i.name, course_name=e.name, teacher=e.teacher, ects=e.ECTS, classroom=e.classroom, grade=e.grade)
+    #         file_object.write(csv + '\n')
     
 def readStudents():
     with open('/home/jovyan/python_handin_template/week3_writeToFile.csv', newline='') as f:
@@ -34,6 +40,41 @@ def readStudents():
         
         return data
 
+def readStudentsImprov():
+    names = []
+    with open('/home/jovyan/python_handin_template/week3_writeToFile.csv', 'r') as file_object:
+        lines = file_object.readlines()
+        for i in lines:
+            name = i.split('Stud_name: ')[1].split(', course_name')[0]
+            names.append(name)
+    
+    returnnames = set(names)
+    
+    students = []
+    for studentname in returnnames:
+
+        data = DataSheet("0")
+        student = Student(studentname, "male", data, "url")
+
+        with open('/home/jovyan/python_handin_template/week3_writeToFile.csv', 'r') as file_object:
+            lines = file_object.readlines()
+            for i in lines:
+                name = i.split('Stud_name: ')[1].split(', course_name')[0]
+                
+                if name == studentname:
+                    
+                    course_name = i.split('course_name: ')[1].split(', teacher')[0]
+                    teacher = i.split('teacher: ')[1].split(', ETCS')[0]
+                    ETCS = i.split('ects: ')[1].split(', classroom')[0]
+                    classroom = i.split('classroom: ')[1].split(', grade')[0]
+                    grade = i.split('grade: ')[1].split(', image_url')[0]
+
+                    course = Course(course_name, classroom, teacher, ETCS, grade)
+                    data.courses.append(course)
+
+        students.append(student)
+
+    return students
 
 def createCourses():
     course1 = Course("Java", "Room23", "Thomas", 30)
@@ -83,12 +124,13 @@ class DataSheet():
     
 class Course():
 
-    def __init__(self, name, classroom, teacher, ECTS):
+    def __init__(self, name, classroom, teacher, ECTS, grade=0):
         self.name = name
         self.classroom = classroom
         self.teacher = teacher
         self.ECTS = ECTS
         possibleScores = [2, 4, 7, 10, 12]
-        self.grade = random.choice(possibleScores)
+        if grade == 0:
+            self.grade = random.choice(possibleScores)
 
         
