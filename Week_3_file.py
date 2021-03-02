@@ -23,7 +23,7 @@ def createStudents(amount):
     for i in persons:
         for e in i.datasheet.courses:
             with open('/home/jovyan/python_handin_template/week3_writeToFile.csv', 'a') as file_object:
-                csv = 'Stud_name: {name}, course_name: {course_name}, teacher: {teacher}, ects: {ects}, classroom: {classroom}, grade: {grade}'.format(
+                csv = 'Stud_name: {name}, course_name: {course_name}, teacher: {teacher}, ects: {ects}, grade: {grade}, classroom: {classroom}'.format(
                     name=i.name, course_name=e.name, teacher=e.teacher, ects=e.ECTS, classroom=e.classroom, grade=e.grade)
                 file_object.write(csv + '\n')
 
@@ -33,6 +33,15 @@ def createStudents(amount):
     #             name=i.name, course_name=e.name, teacher=e.teacher, ects=e.ECTS, classroom=e.classroom, grade=e.grade)
     #         file_object.write(csv + '\n')
     
+
+def studentBar():
+    students = readStudentsImprov()
+    for student in students:
+        print(student.name)
+        print(student.datasheet.courses[0].classroom)
+        #plt.bar([student.name], [student.get_avg_grade()],width=0.5, align='center')
+        #plt.xticks(rotation=45, horizontalalignment='right',fontweight='light')
+
 def readStudents():
     with open('/home/jovyan/python_handin_template/week3_writeToFile.csv', newline='') as f:
         reader = csv.reader(f)
@@ -64,10 +73,13 @@ def readStudentsImprov():
                 if name == studentname:
                     
                     course_name = i.split('course_name: ')[1].split(', teacher')[0]
-                    teacher = i.split('teacher: ')[1].split(', ETCS')[0]
-                    ETCS = i.split('ects: ')[1].split(', classroom')[0]
-                    classroom = i.split('classroom: ')[1].split(', grade')[0]
-                    grade = i.split('grade: ')[1].split(', image_url')[0]
+                    teacher = i.split('teacher: ')[1].split(', ects')[0]
+                    ETCS = i.split('ects: ')[1].split(', grade')[0]
+                    grade = i.split('grade: ')[1].split(', classroom')[0]
+                    classroom = i.split('classroom: ')[1]
+                    
+
+                    print(grade)
 
                     course = Course(course_name, classroom, teacher, ETCS, grade)
                     data.courses.append(course)

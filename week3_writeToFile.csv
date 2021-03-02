@@ -1,40 +1,65 @@
-Stud_name: Andrea, course_name: Python Advanced, teacher: Thomas, ects: 10, classroom: Room88, grade: 10
-Stud_name: Andrea, course_name: TypeScript, teacher: Eko, ects: 5, classroom: Room04, grade: 2
-Stud_name: Andrea, course_name: Python, teacher: Thomas, ects: 30, classroom: Room47, grade: 10
-Stud_name: Andrea, course_name: Algos, teacher: Al, ects: 20, classroom: Room12, grade: 2
-Stud_name: Andrea, course_name: Algos, teacher: Al, ects: 20, classroom: Room12, grade: 2
-Stud_name: Andrea, course_name: Python, teacher: Thomas, ects: 30, classroom: Room47, grade: 10
-Stud_name: Andrea, course_name: Java, teacher: Thomas, ects: 30, classroom: Room23, grade: 12
-Stud_name: Andrea, course_name: Systems, teacher: Eko, ects: 5, classroom: Room04, grade: 4
-Stud_name: Sva, course_name: Python Advanced, teacher: Thomas, ects: 10, classroom: Room88, grade: 10
-Stud_name: Sva, course_name: TypeScript, teacher: Eko, ects: 5, classroom: Room04, grade: 2
-Stud_name: Sva, course_name: Python, teacher: Thomas, ects: 30, classroom: Room47, grade: 10
-Stud_name: Sva, course_name: Algos, teacher: Al, ects: 20, classroom: Room12, grade: 2
-Stud_name: Sva, course_name: Algos, teacher: Al, ects: 20, classroom: Room12, grade: 2
-Stud_name: Sva, course_name: Python, teacher: Thomas, ects: 30, classroom: Room47, grade: 10
-Stud_name: Sva, course_name: Java, teacher: Thomas, ects: 30, classroom: Room23, grade: 12
-Stud_name: Sva, course_name: Systems, teacher: Eko, ects: 5, classroom: Room04, grade: 4
-Stud_name: Sally, course_name: Python Advanced, teacher: Thomas, ects: 10, classroom: Room88, grade: 10
-Stud_name: Sally, course_name: TypeScript, teacher: Eko, ects: 5, classroom: Room04, grade: 2
-Stud_name: Sally, course_name: Python, teacher: Thomas, ects: 30, classroom: Room47, grade: 10
-Stud_name: Sally, course_name: Algos, teacher: Al, ects: 20, classroom: Room12, grade: 2
-Stud_name: Sally, course_name: Algos, teacher: Al, ects: 20, classroom: Room12, grade: 2
-Stud_name: Sally, course_name: Python, teacher: Thomas, ects: 30, classroom: Room47, grade: 10
-Stud_name: Sally, course_name: Java, teacher: Thomas, ects: 30, classroom: Room23, grade: 12
-Stud_name: Sally, course_name: Systems, teacher: Eko, ects: 5, classroom: Room04, grade: 4
-Stud_name: Lars, course_name: Python Advanced, teacher: Thomas, ects: 10, classroom: Room88, grade: 10
-Stud_name: Lars, course_name: TypeScript, teacher: Eko, ects: 5, classroom: Room04, grade: 2
-Stud_name: Lars, course_name: Python, teacher: Thomas, ects: 30, classroom: Room47, grade: 10
-Stud_name: Lars, course_name: Algos, teacher: Al, ects: 20, classroom: Room12, grade: 2
-Stud_name: Lars, course_name: Algos, teacher: Al, ects: 20, classroom: Room12, grade: 2
-Stud_name: Lars, course_name: Python, teacher: Thomas, ects: 30, classroom: Room47, grade: 10
-Stud_name: Lars, course_name: Java, teacher: Thomas, ects: 30, classroom: Room23, grade: 12
-Stud_name: Lars, course_name: Systems, teacher: Eko, ects: 5, classroom: Room04, grade: 4
-Stud_name: Ta, course_name: Python Advanced, teacher: Thomas, ects: 10, classroom: Room88, grade: 10
-Stud_name: Ta, course_name: TypeScript, teacher: Eko, ects: 5, classroom: Room04, grade: 2
-Stud_name: Ta, course_name: Python, teacher: Thomas, ects: 30, classroom: Room47, grade: 10
-Stud_name: Ta, course_name: Algos, teacher: Al, ects: 20, classroom: Room12, grade: 2
-Stud_name: Ta, course_name: Algos, teacher: Al, ects: 20, classroom: Room12, grade: 2
-Stud_name: Ta, course_name: Python, teacher: Thomas, ects: 30, classroom: Room47, grade: 10
-Stud_name: Ta, course_name: Java, teacher: Thomas, ects: 30, classroom: Room23, grade: 12
-Stud_name: Ta, course_name: Systems, teacher: Eko, ects: 5, classroom: Room04, grade: 4
+Stud_name: Bek, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bek, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Bek, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bek, course_name: Python Advanced, teacher: Thomas, ects: 10, grade: 7, classroom: Room88
+Stud_name: Bek, course_name: Systems, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Bek, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bek, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bek, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bek, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bek, course_name: Java Advanced, teacher: Al, ects: 15, grade: 12, classroom: Room15
+Stud_name: Bek, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Bek, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Bek, course_name: Java Advanced, teacher: Al, ects: 15, grade: 12, classroom: Room15
+Stud_name: Bea, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bea, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Bea, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bea, course_name: Python Advanced, teacher: Thomas, ects: 10, grade: 7, classroom: Room88
+Stud_name: Bea, course_name: Systems, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Bea, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bea, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bea, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bea, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Bea, course_name: Java Advanced, teacher: Al, ects: 15, grade: 12, classroom: Room15
+Stud_name: Bea, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Bea, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Bea, course_name: Java Advanced, teacher: Al, ects: 15, grade: 12, classroom: Room15
+Stud_name: Tom, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Tom, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Tom, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Tom, course_name: Python Advanced, teacher: Thomas, ects: 10, grade: 7, classroom: Room88
+Stud_name: Tom, course_name: Systems, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Tom, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Tom, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Tom, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Tom, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Tom, course_name: Java Advanced, teacher: Al, ects: 15, grade: 12, classroom: Room15
+Stud_name: Tom, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Tom, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Tom, course_name: Java Advanced, teacher: Al, ects: 15, grade: 12, classroom: Room15
+Stud_name: Ta, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Ta, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Ta, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Ta, course_name: Python Advanced, teacher: Thomas, ects: 10, grade: 7, classroom: Room88
+Stud_name: Ta, course_name: Systems, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Ta, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Ta, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Ta, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Ta, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Ta, course_name: Java Advanced, teacher: Al, ects: 15, grade: 12, classroom: Room15
+Stud_name: Ta, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Ta, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Ta, course_name: Java Advanced, teacher: Al, ects: 15, grade: 12, classroom: Room15
+Stud_name: Sva, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Sva, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Sva, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Sva, course_name: Python Advanced, teacher: Thomas, ects: 10, grade: 7, classroom: Room88
+Stud_name: Sva, course_name: Systems, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Sva, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Sva, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Sva, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Sva, course_name: Discrete Math, teacher: Eko, ects: 15, grade: 4, classroom: Room39
+Stud_name: Sva, course_name: Java Advanced, teacher: Al, ects: 15, grade: 12, classroom: Room15
+Stud_name: Sva, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Sva, course_name: TypeScript, teacher: Eko, ects: 5, grade: 4, classroom: Room04
+Stud_name: Sva, course_name: Java Advanced, teacher: Al, ects: 15, grade: 12, classroom: Room15
