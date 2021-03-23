@@ -1740,3 +1740,37 @@ JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/pla
 JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
 JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
 JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+1616540928697	geckodriver	INFO	Listening on 127.0.0.1:51613
+1616540931830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Gustav\\AppData\\Local\\Temp\\rust_mozprofileW5ESO1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616540933782	Marionette	INFO	Listening on port 51623
+1616540933881	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+1616540972414	geckodriver	INFO	Listening on 127.0.0.1:51887
+1616540975525	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Gustav\\AppData\\Local\\Temp\\rust_mozprofileyeYCT2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616540977590	Marionette	INFO	Listening on port 51897
+1616540977688	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.bluebillywig.com/apps/player/20210322.125833/player.js line 281 > eval, line 1: unreachable code after return statement
